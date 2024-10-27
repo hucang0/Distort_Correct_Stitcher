@@ -11,9 +11,18 @@ This project also includes portions of code originally licensed under the MIT Li
 and authored by Johan Öfverstedt (2021), which have been modified and incorporated into this work.
 The full text of the MIT License is included below as required by the original license terms.
 
+Citation Request
+----------------
+If you use this software in academic or research work, please consider citing the following publication:
+
+    [Your publication citation – replace this with the full citation once available]
+
+This citation request is not a legal requirement under the Apache License, but it is appreciated.
+
+
 Apache License
 --------------
-Copyright [Year] [Your Name]
+Copyright 2024 Hu Cang
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
