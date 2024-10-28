@@ -6,6 +6,18 @@ DistortoCorrect Stitcher is a tool designed to accurately stitch image tiles wit
 - **Input Format**: Image tiles in float32 format with dimensions `[tile, color, y, x]`. Each tile should be `2048 x 2048` pixels. Additionally, the global positions should be provided in an `n x 2` array, where each row contains the `y` and `x` coordinates (top-left corner) of each tile.
 - **Output Format**: An assembled TIFF file in the `tyx` format, compatible with Fiji (ImageJ) for further analysis.
 
+## Requirements
+This project requires Python 3.10 and the following packages:
+- torch==2.4
+- cupy==13.3
+- cucim==24.10
+- cuda==12.5
+- networkx==3.4
+- numba==0.60
+- tifffile==2024.9.20
+- scikit-learn==1.5.2
+- scikit-image==0.24
+
 ## Usage
 The `distortCorrectStitcher.ipynb` notebook provides a complete stitching process with distortion correction.
 
