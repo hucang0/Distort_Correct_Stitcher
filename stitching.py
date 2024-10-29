@@ -82,7 +82,7 @@ def pr_stitching(tiles, positions, vis=False):
     for gamma in tqdm(gammas):
         G = construct_matrix_colors(tiles_corrected, positions, gamma=gamma)
         if vis: 
-            ds.visualize_graph(G)
+            visualize_graph(G)
         positions, _ = optimize_shifts_with_graph(G, positions) 
     return positions
 
