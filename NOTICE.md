@@ -15,7 +15,7 @@ Citation Request
 ----------------
 If you use this software in academic or research work, please consider citing the following publication:
 
-    [Your publication citation – replace this with the full citation once available]
+    Cang H, Fan H, Sun S, Zhang K. DistortCorrect Stitcher: Microscopy Image Stitching with Integrated Optical Distortion. bioRxiv. 2024 Oct 28; 10.1101/2024.10.28.620720
 
 This citation request is not a legal requirement under the Apache License, but it is appreciated.
 
