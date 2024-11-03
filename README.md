@@ -1,7 +1,12 @@
 # DistortoCorrect Stitcher
 
 DistortoCorrect Stitcher is a tool designed to accurately stitch image tiles with distortion correction for microscopy. This repository contains a Jupyter notebook, `distortCorrectStitcher.ipynb`, which provides a full workflow for stitching and distortion correction. The details of the algorithm and implementation can be found in our publication. 
-![Below is an example image demonstrating the impact of our distortion correction method on stitching microscopy tiles: The right upper panel shows stitching of two tiles without distortion correction, where RNA from neighboring tiles (shown in red and green channels) doesn’t overlap well. In contrast, the right bottom panel illustrates corrected stitching, with red and green signals perfectly overlapping, appearing as yellow.] (distort_fig.png)
+
+### Example Figure Showing Distortion Correction
+
+Below is an example image demonstrating the impact of our distortion correction method on stitching microscopy tiles: The right upper panel shows stitching of two tiles without distortion correction, where RNA from neighboring tiles (shown in red and green channels) doesn’t overlap well. In contrast, the right bottom panel illustrates corrected stitching, with red and green signals perfectly overlapping, appearing as yellow.
+
+![Distortion Correction Figure](https://github.com/hucang0/Distort_Correct_Stitcher/blob/main/distort_fig.png)
 
 ## Features
 - **Input Format**: Image tiles in float32 format with dimensions `[tile, color, y, x]`. Each tile should be `2048 x 2048` pixels. Additionally, the global positions should be provided in an `n x 2` array, where each row contains the `y` and `x` coordinates (top-left corner) of each tile.
