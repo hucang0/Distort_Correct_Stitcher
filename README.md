@@ -28,4 +28,4 @@ This project is licensed under the Apache License, Version 2.0. Portions of code
 If you use this tool in your research, please cite our work as specified in the [Cang H, Fan H, Sun S, Zhang K. DistortCorrect Stitcher: Microscopy Image Stitching with Integrated Optical Distortion. bioRxiv. 2024 Oct 28; 10.1101/2024.10.28.620720].
 
 ## Documentation
-Full details of the method and examples can be found in the paper [(https://www.biorxiv.org/content/10.1101/2024.10.28.620720v1)].
+Full details of the method and examples can be found in the paper [https://www.biorxiv.org/content/10.1101/2024.10.28.620720v1].
